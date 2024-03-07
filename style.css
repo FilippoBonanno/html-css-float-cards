@@ -41,9 +41,8 @@ main {
 
 }
 
-.riga-primary {
+.riga-primary, .riga-secondary {
     height: 100px;
-    background-color: aqua;
     
 }
 
@@ -52,9 +51,7 @@ main {
     height: 100px;
     float: left;
     margin-left: 20px;
-    background-color: red;
-    
-    
+    background-color: black;
     
 }
 
@@ -72,5 +69,17 @@ img {
 
 .album * {
     float: left;
-
+    color: white;
+    line-height: 25px;
+    
 }
+
+.album-title {
+    padding: 10px;
+    
+}
+
+.riga-primary {
+    margin-bottom: 50px;
+}
+
