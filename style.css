@@ -2,3 +2,75 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: sans-serif;
+    background-color: #222;
+}
+
+.container {
+    background-color: white;
+    width: 85%;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+    width: 70%;
+    height: 100vh;
+    background-color: rebeccapurple;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.title, .sub-title {
+    text-align: center;
+    padding: 30px;
+
+}
+
+.title {
+    
+
+}
+
+.sub-title {
+
+
+}
+
+.riga-primary {
+    height: 100px;
+    background-color: aqua;
+    
+}
+
+.album {
+    width: 350px;
+    height: 100px;
+    float: left;
+    margin-left: 20px;
+    background-color: red;
+    
+    
+    
+}
+
+.riga-primary, .album::after {
+    content: "";
+    clear: both;
+    display: block;
+
+}
+
+img {
+    width: 30%;
+    height: 100%;
+}
+
+.album * {
+    float: left;
+
+}
